@@ -1,6 +1,6 @@
 # MindTrace-Agent
 
-**学生入口（Local）**：启动后打开 `http://localhost:5173/`。**演示入口（Hosted）**：Not deployed。**GitHub URL**：[https://github.com/afountain/MindTrace-Agent](https://github.com/afountain/MindTrace-Agent)。**API接口**：无独立后端；本地 adapter 位于 `frontend/src/adapters/learning.ts`。
+**学生入口（Local）**：启动后打开 `http://localhost:5173/`。**演示入口（Hosted）**：Not deployed。**上游来源**：[https://github.com/afountain/MindTrace-Agent](https://github.com/afountain/MindTrace-Agent)（基线代码，非本人原创）。**学生仓库（本课程设计）**：[https://github.com/Yvwye/MindTrace-Agent](https://github.com/Yvwye/MindTrace-Agent)。**API接口**：无独立后端；本地 adapter 位于 `frontend/src/adapters/learning.ts`。
 
 ## 三分钟启动
 
@@ -21,3 +21,14 @@ npm --prefix frontend run dev -- --host 127.0.0.1 --port 5173
 ## 学生任务
 
 从 `frontend/src/adapters/learning.ts` 开始。第一任务：为错因分类设计可测试规则和证据字段，不自动给学生评级。 详见 `docs/STUDENT_START_HERE.md` 和 `docs/ROADMAP_7_DAYS.md`。
+
+
+## 课程设计说明（学生仓库）
+
+本仓库为《人工智能》课程设计用的学生仓库：基线代码来自上游 `afountain/MindTrace-Agent`，
+在 `feature/evidence-tags` 分支上完成一项最小改进（可追溯的证据标签），
+改动说明与本机验证记录见 `docs/COURSEWORK_NOTES.md`。
+
+- 上游基线：https://github.com/afountain/MindTrace-Agent
+- 学生仓库：https://github.com/Yvwye/MindTrace-Agent
+- 所有演示数据均为 DEMO / SAMPLE，不含真实学生个人信息。
